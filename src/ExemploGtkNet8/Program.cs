@@ -10,7 +10,7 @@ namespace GtkApplication1
         {
             Application.Init();
 
-            var app = new Application("org.GtkApplication1.GtkApplication1", GLib.ApplicationFlags.None);
+            var app = new Application("org.ExemploGtkNet8.ExemploGtkNet8", GLib.ApplicationFlags.None);
             app.Register(GLib.Cancellable.Current);
 
             var win = new MainWindow();

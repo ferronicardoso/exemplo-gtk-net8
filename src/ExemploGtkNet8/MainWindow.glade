@@ -15,7 +15,7 @@
         <property name="can-focus">False</property>
         <child>
           <object class="GtkButton" id="_button1">
-            <property name="label" translatable="yes">Clique aqui</property>
+            <property name="label" translatable="yes">Click here</property>
             <property name="width-request">200</property>
             <property name="height-request">50</property>
             <property name="visible">True</property>
