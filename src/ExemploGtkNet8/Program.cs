@@ -1,7 +1,7 @@
 using System;
 using Gtk;
 
-namespace GtkApplication1
+namespace ExemploGtkNet8
 {
     class Program
     {
@@ -13,9 +13,9 @@ namespace GtkApplication1
             var app = new Application("org.ExemploGtkNet8.ExemploGtkNet8", GLib.ApplicationFlags.None);
             app.Register(GLib.Cancellable.Current);
 
-            var win = new MainWindow();
+            var win = new frmMain();
             app.AddWindow(win);
-
+            
             win.Show();
             Application.Run();
         }
